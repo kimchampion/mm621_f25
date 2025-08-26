@@ -5,7 +5,9 @@ Ultimately, you only have one opportunitey to move your product/item into the pu
 
 ### Affordances & Signifiers
 Something designed well shouldn't need instructions on how to use it, regardless of the object. Elements required to make the object work should be visible, so the user doesn't struggle to use it. "Affordances provide strong clues to the operations of things" (p.9) and signifiers provide additional details of how and where to interact with the object, deliberately. 
+
 An example of an object that suggests how it's used would be a frying pan. The handle is the smaller, narrow side, which is held by hand, and the larger bowl area indicates where you would place the contents you want to cook over the fire. The signifiers for this pan would be the non-stick coating inside the pan area and the ergonomic grip on the handle. 
+
 Designers should focus on signifiers or the details of the experience, prioritizing the elements that are used most often.
 
 ### Conceptual Models
