@@ -7,7 +7,7 @@ Class: Screen Based Interaction (MM621-02-1, Fa25)
 
 Assignments:
 
-[In-Class Exercise 1 : Character/ Scene Randomizer]()
+[In-Class Exercise 1 : Character/ Scene Randomizer](mm621_f25/exercises/sceneRandomizer/)
 
 
 
