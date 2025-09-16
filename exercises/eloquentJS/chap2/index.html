@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises: Chapter 2</title>
+</head>
+<body>
+
+
+<script>
+
+//exercise: looping a triangle
+console.log("");
+console.log("exercise: looping a triangle");
+
+
+    let x = "";
+
+    for (let index = 0; index < 7 ; index++) {
+        x = x + "#";
+        console.log(x);
+    }
+
+//exercise: Fizz Buzz
+console.log("");
+console.log("exercise: Fizz Buzz");
+
+    let fizzNumbers = 0;
+
+    for (let index = 0; index < 100; index++) {
+    
+        fizzNumbers = fizzNumbers + 1;
+
+        if (Number.isInteger(fizzNumbers/3)) {    
+            console.log("Fizz");
+                if (Number.isInteger(fizzNumbers/5) ) {
+                    console.log("FizzBuzz");
+                }
+             } else if (Number.isInteger(fizzNumbers/5)) {
+
+                 console.log("Buzz");
+        } else {
+            console.log(fizzNumbers);
+        }
+    }
+
+//exercise: 8x8 grid
+console.log("");
+console.log("8 x 8 grid");
+
+//let gridVar2 = " # # # # # # # # ";
+let line  = " ";
+let newline = 8;
+let mainGrid = "";
+
+//   for (let i = 0; i < 4; i++) {
+ 
+//    for (let j = 1; j < 16; j++) { 
+//     line = line + j;  
+
+//      if (j == newline) {
+//         newline = newline + 8;
+//         line = line + "\n"; 
+//      }   
+//         console.log(i+" "+j+" "+newline);  
+//     }
+//        newline = 8;
+//     }
+
+let row=0;
+let lineStr = "";
+
+for (let i = 0; i < 4; i++) {
+
+    for (let j = 0; j < 8; j++) { 
+
+            console.log("i: "+i+" j: "+j);  
+
+            if (j == 7) {
+                console.log("new line");
+                lineStr = lineStr + "\n"
+            } else {
+                lineStr = lineStr + "# "
+            }       
+    }
+       console.log("row: "+row +" i: "+ i);
+    if (row == i) {
+        lineStr = lineStr + " ";
+        row = row + i;
+    } 
+   
+   
+}
+    
+console.log(lineStr);
+
+
+
+</script>
+
+
+</body>
+</html>
