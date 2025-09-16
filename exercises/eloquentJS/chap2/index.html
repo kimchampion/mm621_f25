@@ -75,22 +75,20 @@ for (let i = 0; i < 4; i++) {
 
     for (let j = 0; j < 8; j++) { 
 
-            console.log("i: "+i+" j: "+j);  
+            //console.log("i: "+i+" j: "+j);  
 
             if (j == 7) {
-                console.log("new line");
+                //console.log("new line");
                 lineStr = lineStr + "\n"
             } else {
                 lineStr = lineStr + "# "
             }       
     }
-       console.log("row: "+row +" i: "+ i);
+       //console.log("row: "+row +" i: "+ i);
     if (row == i) {
         lineStr = lineStr + " ";
         row = row + i;
     } 
-   
-   
 }
     
 console.log(lineStr);
