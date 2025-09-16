@@ -83,7 +83,7 @@ function mousePressed() {
 // Load images used for my funny face.
 function preload() {
 
-  faceFull = loadImage('/assets/faceFull.png');  
+  faceFull = loadImage('assets/faceFull.png');  
 
 
   //load eye images
