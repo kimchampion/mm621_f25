@@ -48,50 +48,31 @@ console.log("exercise: Fizz Buzz");
 //exercise: 8x8 grid
 console.log("");
 console.log("8 x 8 grid");
+console.log("==========");
 
-//let gridVar2 = " # # # # # # # # ";
-let line  = " ";
-let newline = 8;
-let mainGrid = "";
-
-//   for (let i = 0; i < 4; i++) {
- 
-//    for (let j = 1; j < 16; j++) { 
-//     line = line + j;  
-
-//      if (j == newline) {
-//         newline = newline + 8;
-//         line = line + "\n"; 
-//      }   
-//         console.log(i+" "+j+" "+newline);  
-//     }
-//        newline = 8;
-//     }
-
-let row=0;
 let lineStr = "";
 
+
 for (let i = 0; i < 8; i++) {
+    
+  //space 0,2,4,6
+  if (i == 0 || i == 2 || i == 4 || i == 6) {
+    lineStr = lineStr + " ";
+  }
 
     for (let j = 0; j < 5; j++) { 
-            //console.log("i: "+i+" j: "+j);  
+
             if (j == 4) {
-                //console.log("new line");
+
                 lineStr = lineStr + "\n"
+
             } else {
                 lineStr = lineStr + "# "
             }       
     }
-       //console.log("row: "+row +" i: "+ i);
-    if (row == i) {
-        lineStr = lineStr + " ";
-        row = row + i;
-    } 
 }
     
 console.log(lineStr);
-
-
 
 </script>
 
