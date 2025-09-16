@@ -53,25 +53,28 @@ console.log("==========");
 let lineStr = "";
 
 
+// num of rows to display
 for (let i = 0; i < 8; i++) {
     
-  //space 0,2,4,6
+  //indent rows 1,3,5 and 7 by 1 space, add to output 
   if (i == 0 || i == 2 || i == 4 || i == 6) {
     lineStr = lineStr + " ";
   }
 
     for (let j = 0; j < 5; j++) { 
+    
+		//add a new line in the 5th pos to output string, else add hashtag and a space
+        if (j == 4) {
 
-            if (j == 4) {
+        	lineStr = lineStr + "\n"
 
-                lineStr = lineStr + "\n"
-
-            } else {
-                lineStr = lineStr + "# "
-            }       
+        } else {         
+            lineStr = lineStr + "# "
+        }       
     }
 }
-    
+
+//display 8x8 grid output string
 console.log(lineStr);
 
 </script>
