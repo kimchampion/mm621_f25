@@ -88,7 +88,7 @@ function preload() {
 
   //load eye images
   for (let i = 0; i < eyes; i++) {
-    eyesArray[i] = loadImage('exercises/sceneRandomizer/assets/eyes'+i+'.png');
+    eyesArray[i] = loadImage('assets/eyes'+i+'.png');
 
   
     //console.log('/assets/eyes'+i+'.png');
@@ -96,13 +96,13 @@ function preload() {
 
   //load nose images
   for (let j = 0; j < nose; j++) {
-    noseArray[j] = loadImage('exercises/sceneRandomizer/assets/nose'+j+'.png');
+    noseArray[j] = loadImage('assets/nose'+j+'.png');
     //console.log('/assets/nose'+j+'.png');
   }
 
     //load mouth images
   for (let k = 0; k < mouth; k++) {
-    mouthArray[k] = loadImage('exercises/sceneRandomizer/assets/mouth'+k+'.png');
+    mouthArray[k] = loadImage('assets/mouth'+k+'.png');
     //console.log('/assets/mouth'+k+'.png');
   }
 
