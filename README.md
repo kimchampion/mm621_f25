@@ -9,7 +9,7 @@ Assignments:
 
 [In-Class Exercise 1 : Character/ Scene Randomizer](exercises/sceneRandomizer/index.html)
 
-[Eloquent Javascript: Chapter 2 - Program Structure]{exercises/eloquentJS/chap2/index.html}
+[Eloquent Javascript: Chapter 2 - Program Structure](exercises/eloquentJS/chap2/index.html)
 
 
 
