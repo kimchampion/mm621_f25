@@ -11,6 +11,8 @@ Assignments:
 
 [Eloquent Javascript: Chapter 2 - Program Structure](exercises/eloquentJS/chap2/index.html)
 
+[Project 1: Interactive Randomizer](exercises/project1-mondrian/index.html)
+
 
 
 
