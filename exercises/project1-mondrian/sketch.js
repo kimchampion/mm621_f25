@@ -68,7 +68,7 @@ strokeWeight(6);
   text("Piet Mondrian (1872–1944) was a Dutch painter and key figure in the De Stijl movement, known\nfor his abstract compositions of straight black lines, white space, and blocks of primary colors. \nHe believed that this stripped-down style expressed universal harmony and balance, \ninfluencing modern art, design, and architecture.",110,650);
 
   textSize(18);
-  text("Keep clicking until\nthe colors feel right\nto you, then save\nor clear it and\ndo it again\n",x,y+280);
+  text("Keep clicking until\nthe colors feel right\nto you, then save\nor clear it and\ndo it again ♡\n",x,y+280);
 
   // build mondrian squares with stored colors
   for (let i = 0; i < xRectArr.length; i++) {
