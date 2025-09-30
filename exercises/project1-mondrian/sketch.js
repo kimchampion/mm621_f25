@@ -106,6 +106,6 @@ function keyPressed() {
 
 // Load images used for primary play.
 function preload() {
-  pietMondrian = loadImage('/assets/piet.png');  
-  paintBrush = loadImage('/assets/paintbrush.png');  
+  pietMondrian = loadImage('assets/piet.png');  
+  paintBrush = loadImage('assets/paintbrush.png');  
 }
