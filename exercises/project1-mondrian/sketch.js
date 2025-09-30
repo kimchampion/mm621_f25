@@ -50,13 +50,23 @@ function draw() {
 background('black');
 strokeWeight(6);
 
-  // custom paintbrush mouse
-   cursor('assets/paintbrush.png');
-
+   if (
+    mouseX > xRectArr[i] &&
+    mouseX < xRectArr[i] + wRectArr[i] &&
+    mouseY > yRectArr[i] &&
+    mouseY < yRectArr[i] + hRectArr[i]
+    ) {
+      // custom paintbrush mouse
+      cursor('assets/paintbrush.png');
+    } else {
+      // custom paintbrush mouse
+       cursor(ARROW);    
+   }
+ 
   // Display image of piet mondrian
   image(pietMondrian,15, 635,75,75 );
 
-    // text(string, x, y);
+  // text(string, x, y);
   textSize(28);
   text("Primary Play",x,y);
   textSize(16);
