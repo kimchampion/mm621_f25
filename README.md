@@ -1,18 +1,22 @@
 # Welcome to my first Github page!
 
-Hey, my name is Kim and welcome to my repository.
+## My name is Kim, welcome to my repository.
 
+Course: Screen Based Interaction (MM621-02-1, Fa25)
 
-Class: Screen Based Interaction (MM621-02-1, Fa25)
+**Assignments:**
 
-Assignments:
+1. In-Class Exercise 1 : Character/ Scene Randomizer
+   * [github project](exercises/sceneRandomizer/index.html)
+   * [ex. web page](https://kimchampion.github.io/mm621_f25/exercises/sceneRandomizer/index.html)
 
-[In-Class Exercise 1 : Character/ Scene Randomizer](exercises/sceneRandomizer/index.html)
+2. Eloquent Javascript: Chapter 2 - Program Structure
+   * [github project](exercises/eloquentJS/chap2/index.html)
+   * [ex. web page](https://kimchampion.github.io/mm621_f25/exercises/eloquentJS/chap2/index.html)
 
-[Eloquent Javascript: Chapter 2 - Program Structure](exercises/eloquentJS/chap2/index.html)
-
-[Project 1: Interactive Randomizer](exercises/project1-mondrian/index.html)
-
+3. Project 1: Interactive Randomizer
+   * [github project](exercises/project1-mondrian/index.html)
+   * [ex. web page](https://kimchampion.github.io/mm621_f25/exercises/project1-mondrian/index.html)
 
 
 
