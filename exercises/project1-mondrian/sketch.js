@@ -50,20 +50,22 @@ function draw() {
 background('black');
 strokeWeight(6);
 
- for (let i = 0; i < xRectArr.length; i++) {
-   if (
-    mouseX > xRectArr[i] &&
-    mouseX < xRectArr[i] + wRectArr[i] &&
-    mouseY > yRectArr[i] &&
-    mouseY < yRectArr[i] + hRectArr[i]
-    ) {
-      // custom paintbrush mouse
-      cursor('assets/paintbrush.png');
-    } else {
-      // custom paintbrush mouse
-       cursor(ARROW);    
-   }
-}
+ cursor('assets/paintbrush.png');
+ 
+//  for (let i = 0; i < xRectArr.length; i++) {
+//    if (
+//     mouseX > xRectArr[i] &&
+//     mouseX < xRectArr[i] + wRectArr[i] &&
+//     mouseY > yRectArr[i] &&
+//     mouseY < yRectArr[i] + hRectArr[i]
+//     ) {
+//       // custom paintbrush mouse
+//       cursor('assets/paintbrush.png');
+//     } else {
+//       // custom paintbrush mouse
+//        cursor(ARROW);    
+//    }
+// }
  
   // Display image of piet mondrian
   image(pietMondrian,15, 635,75,75 );
