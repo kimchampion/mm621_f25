@@ -51,7 +51,7 @@ background('black');
 strokeWeight(6);
 
   // custom paintbrush mouse
-   cursor('/assets/paintbrush.png');
+   cursor('assets/paintbrush.png');
 
   // Display image of piet mondrian
   image(pietMondrian,15, 635,75,75 );
