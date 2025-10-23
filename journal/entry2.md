@@ -46,4 +46,4 @@ a cockpit door barring unauthorized users (lock out), Save changes before leavin
 ## Change & Conventions
 Even when a new design is better, if it breaks familiar conventions it can confuse users; switching from old norms requires coordination or clear cues
 Ignition to start a car (old vs new)
- ![change](assets/8-change.jpeg) 
+ ![change](assets/8-change.png) 
