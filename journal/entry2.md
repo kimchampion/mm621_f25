@@ -2,7 +2,7 @@
 
 Because I’m a visual learner and remember concepts best when I can see them, I plan to use images in this journal entry to represent my understanding of the key themes from Chapter 4. This chapter focuses on how good design makes actions clear through discoverability, signifiers, constraints, feedback, and natural mapping. Using visuals will help me show how these concepts work together to make everyday objects easier to understand and use.
 
-## Knowledge in the World (Maps / Navigation Systems)
+## Knowledge in the World (Maps & Navigation Systems)
  ![in the world](assets/1-world.jpeg) 
 
 ### Constraints let’s people determine the proper course of action
