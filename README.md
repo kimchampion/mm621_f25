@@ -11,7 +11,7 @@ Course: Screen Based Interaction (MM621-02-1, Fa25)
    * [ex. web page](https://kimchampion.github.io/mm621_f25/exercises/sceneRandomizer/index.html)
 
 2. Eloquent Javascript: Chapter 2 - Program Structure
-   * [github project](https://github.com/kimchampion/mm621_f25/exercises/eloquentJS/chap2)
+   * [github project](https://github.com/kimchampion/mm621_f25/exercises/eloquentJS/chap2) 
    * [ex. web page](https://kimchampion.github.io/mm621_f25/exercises/eloquentJS/chap2/index.html)
 
 3. Project 1: Interactive Randomizer
@@ -19,6 +19,6 @@ Course: Screen Based Interaction (MM621-02-1, Fa25)
    * [ex. web page](https://kimchampion.github.io/mm621_f25/exercises/project1-mondrian/index.html)
 
 4. In-Class Exercise 2 :  Mini Data Viz
-   * [github project](https://github.com/kimchampion/mm621_f25/exercises/miniDataViz)
+   * [github project](https://github.com/kimchampion/mm621_f25/tree/main/exercises/miniDataViz)
    * [ex. web page](https://kimchampion.github.io/mm621_f25/exercises/miniDataViz/index.html)
 
