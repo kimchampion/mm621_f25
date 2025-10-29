@@ -18,5 +18,7 @@ Course: Screen Based Interaction (MM621-02-1, Fa25)
    * [github project](exercises/project1-mondrian)
    * [ex. web page](https://kimchampion.github.io/mm621_f25/exercises/project1-mondrian/index.html)
 
-
+4. In-Class Exercise 2 :  Mini Data Viz
+   * [github project](exercises/miniDataViz)
+   * [ex. web page](https://kimchampion.github.io/mm621_f25/exercises/miniDataViz/index.html)
 
