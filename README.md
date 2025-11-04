@@ -24,4 +24,4 @@ Course: Screen Based Interaction (MM621-02-1, Fa25)
 
 5. Project 2: Data Visualization
    * [github project](https://github.com/kimchampion/mm621_f25/tree/main/exercises/project2-dataviz)
-   * [project page, World Happiness Report](https://kimchampion.github.io/mm621_f25/exercises/project2-dataviz/index.html)
+   * [project page, World Happiness Report](https://kimchampion.github.io/mm621_f25/exercises/project2-dataviz/index.html?year=2015)
