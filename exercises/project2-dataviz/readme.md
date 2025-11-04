@@ -11,4 +11,4 @@ Sources:
 
 [World Happiness Data Set](https://www.kaggle.com/datasets/unsdsn/world-happiness)
 
-[World Map]( https://stock.adobe.com/images/world-map-modern-color-vector-map-silhouette-map/842059052)
+[World Map (base image)]( https://stock.adobe.com/images/world-map-modern-color-vector-map-silhouette-map/842059052)
