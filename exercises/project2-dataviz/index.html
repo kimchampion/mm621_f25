@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happiness Report Data Visualization</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <h1 style="text-align: center;";>World Happiness Report</h1>
+    <main>
+    <p style="padding: 0% 10% 0% 10%;">This visualization shows the <strong> 
+      happiness score by region</strong> from the World Happiness Report, using emojis 
+      to represent each region’s overall mood. Hovering over a region reveals its
+      <strong>countries and happiness rankings</strong>, connecting regional 
+      averages to country-level details. It highlights global patterns and differences 
+      in happiness across the world.
+            <!-- Inside index.html -->
+        <div class="year-buttons">
+          <a href="index.html?year=2015" id="y2015">2015</a>
+          <a href="index.html?year=2016" id="y2016">2016</a>
+          <a href="index.html?year=2017" id="y2017">2017</a>
+          <a href="index.html?year=2018" id="y2018">2018</a>
+          <a href="index.html?year=2019" id="y2019">2019</a>
+        </div>
+          
+      </p>
+    <script src="getActiveYear.js"></script> 
+    <script src="emojiLegend.js"></script>
+    <script src="graph-emoji-responsive.js"></script>
+    <script src="emojiButton.js"></script>
+
+     </main>
+  </body>
+</html>
