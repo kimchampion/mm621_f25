@@ -7,6 +7,8 @@ This approach links the high-level regional trend to the underlying country-leve
 
 My data visualization of world happiness report
 
-Sources: 
+Sources:
+
 [World Happiness Data Set](https://www.kaggle.com/datasets/unsdsn/world-happiness)
+
 [World Map]( https://stock.adobe.com/images/world-map-modern-color-vector-map-silhouette-map/842059052)
