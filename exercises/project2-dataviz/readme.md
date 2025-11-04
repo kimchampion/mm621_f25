@@ -1,1 +1,6 @@
-Project 2
+# Project 2 - Data Visualization
+## The World Happiness Report 
+
+My data visualization presents the **average happiness score** by region, allowing viewers to quickly compare how different parts of the world rank in terms of overall life satisfaction. When anyone hovers over a region’s emoji, it reveals the **list of countries** in that region along with their individual **happiness rankings**, providing context behind the region’s average. 
+
+This approach links the high-level regional trend to the underlying country-level data from the World Happiness Report dataset, supporting deeper exploration of which nations drive regional outcomes. Overall, it highlights regional disparities in happiness while also enabling users to drill down into specific country-details.
