@@ -5,8 +5,8 @@ My data visualization presents the **average happiness score** by region, allowi
 
 This approach links the high-level regional trend to the underlying country-level data from the World Happiness Report dataset, supporting deeper exploration of which nations drive regional outcomes. Overall, it highlights regional disparities in happiness while also enabling users to drill down into specific country-details.
 
-View my visualization of world happiness report
+My data visualization of world happiness report
 
 Sources: 
-World Happiness Data Set https://www.kaggle.com/datasets/unsdsn/world-happiness
-World Map https://stock.adobe.com/images/world-map-modern-color-vector-map-silhouette-map/842059052
+[World Happiness Data Set](https://www.kaggle.com/datasets/unsdsn/world-happiness)
+[World Map]( https://stock.adobe.com/images/world-map-modern-color-vector-map-silhouette-map/842059052)
