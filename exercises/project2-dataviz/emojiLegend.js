@@ -1,17 +1,22 @@
-// Legend position in BASE space (no consts needed)
+/**
+ * This code provided by ChatGPT 5 based on my main file.
+ * slightly modified
+ */
+// Legend position in BASE space
 let LEG_X = 20;
 let LEG_Y = 20;
 
+
 // legend rows: [emoji, label]
 let emojiLegend = [
-  ["😄", "9.0 – 10.0 (Happiest)"],
+  ["❤️", "9.0 – 10.0 (Happiest)"],
   ["😁", "8.0 – 8.9"],
-  ["😊", "7.0 – 7.9"],
+  ["🥰", "7.0 – 7.9"],
   ["🙂", "6.0 – 6.9"],
-  ["😌", "5.0 – 5.9"],
-  ["😐", "4.0 – 4.9"],
-  ["😕", "3.0 – 3.9"],
-  ["😞", "2.0 – 2.9"],
+  ["🫠", "5.0 – 5.9"],
+  ["🫩", "4.0 – 4.9"],
+  ["🥺", "3.0 – 3.9"],
+  ["🫣", "2.0 – 2.9"],
   ["😢", "1.0 – 1.9"],
   ["😭", "0.0 – 0.9 (Saddest)"]
 ];
