@@ -1,4 +1,3 @@
-
 class EmojiButton {
   // (center x, center y, fontSize, regionName, avgScore, regionIdx)
   constructor(cx, cy, fontSize, regName, avgScore, regionIdx) {
@@ -10,14 +9,14 @@ class EmojiButton {
     this._regionIdx = regionIdx;
     this._emoji = getEmojiForScore(avgScore);
     this._isHover = false;
-    this._colorTint = 255; // not applied to emoji text; kept for parity
+    this._colorTint = 255; 
   }
 
   rollover(px, py) {
-    // approximate bounding box hit-test for the emoji glyph
+
     textSize(this._fs);
     let halfW = textWidth(this._emoji) * 0.5;
-    let halfH = this._fs * 0.6; // rough half-height of glyph
+    let halfH = this._fs * 0.6; 
     let left = this._cx - halfW;
     let right = this._cx + halfW;
     let top = this._cy - halfH;
@@ -40,16 +39,19 @@ class EmojiButton {
     push();
     textAlign(CENTER, CENTER);
     textSize(this._fs);
-    // (optional) subtle highlight circle on hover for affordance
-
+    
+    //highlight circle on hover
     if (this._isHover) {
-      noStroke();
-      fill(60, 60, 60, 140);
+
+      fill(247, 196, 85, 140);
       let r = this._fs * 0.9;
       ellipse(this._cx, this._cy, r * 1.6, r * 1.6);
     }
   
-    fill(255); // emoji is colored by font, fill doesn't recolor emoji glyphs in most browsers, but keep for text
+    let emojiAlpha = map(this._avgScore, 0, 10, 200, 255);
+    //console.log("emojiAlpha: "+ emojiAlpha);
+
+    fill(255, emojiAlpha); // set alpha value
     text(this._emoji, this._cx, this._cy);
     pop();
   }
@@ -57,7 +59,8 @@ class EmojiButton {
   showPopup(mx, my) {
     // Build lines: title + country/rank list
     let lines = [];
-
+    
+    noStroke();
     lines.push(this._regName + " (Avg " + this._avgScore.toFixed(2) + ")");
     lines.push("_______________________________");
     lines.push(" Rank  Country");
@@ -72,7 +75,6 @@ class EmojiButton {
       lines.push("... +" + (countries[idx].length - maxLines) + " more");
     }
 
-    // measure and place
     let pad = 10;
     let lineH = 18;
     let w = 0;
@@ -86,7 +88,6 @@ class EmojiButton {
     let boxW = w + pad * 2;
     let boxH = lines.length * lineH + pad * 2;
 
-    // try above; if no room, put below; clamp to canvas
     let bx = this._cx + this._fs * 0.8;
     let by = this._cy - boxH - 10;
     if (bx + boxW > width) bx = width - boxW - 6;
@@ -94,9 +95,9 @@ class EmojiButton {
     if (by < 0) by = this._cy + this._fs + 10;
     if (by + boxH > height) by = height - boxH - 6;
 
-    // draw panel
     push();
-    noStroke();
+   
+    stroke(0);
 
     if (this._regName === "Latin America and Caribbean") {
       fill(48, 76, 153);
@@ -137,7 +138,7 @@ class EmojiButton {
     } else {
         fill(0);
     }
-
+    noStroke();
     for (let k = 0; k < lines.length; k++) {
       let ty = by + pad + lineH * (k + 0.8);
       text(lines[k], bx + pad, ty);
