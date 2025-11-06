@@ -17,16 +17,16 @@ let barButtons  = [];
    how the region appears in the regionNames array.
 */
 let regionPos = {
-  "Australia and New Zealand":    { x: 906, y: 522 },
+  "Australia and New Zealand":    { x: 908, y: 529 },
   "Western Europe":               { x: 464, y: 159 },
   "North America":                { x: 247, y: 196 },
   "Latin America and Caribbean":  { x: 327, y: 483 },
   "Sub-Saharan Africa":           { x: 560, y: 425 },
   "Middle East and Northern Africa": { x: 592, y: 308 },
-  "Central and Eastern Europe":   { x: 672, y: 192 },
+  "Central and Eastern Europe":   { x: 672, y: 194 },
   "Eastern Asia":                 { x: 792, y: 290 },
   "Southeastern Asia":            { x: 819, y: 429 },
-  "Southern Asia":              { x: 724, y: 358 }
+  "Southern Asia":              { x: 722, y: 349 }
 };
 
 // Centering controls
@@ -50,7 +50,6 @@ let ty = 0;          // translate y value
 
 //preload data used in this view
 function preload() {
-  data = loadTable(url, "csv", "header"); //load data
 
   data2015 = loadTable(url_2015, "csv", "header"); //load data
   data2016 = loadTable(url_2016, "csv", "header"); //load data
@@ -113,9 +112,6 @@ function setup() {
     data = data2015;
         print("2015 happiness rows:", data2015.getRowCount());
   }
-
-  
-
 
 
   if (!data) return; //if there is no data then return
@@ -210,11 +206,11 @@ function setup() {
 // build one emoji per region (use explicit (x,y) if provided)
 barButtons = [];
   for (let i = 0; i < regionNames.length; i++) {
-    let minSize = 16;
-    let maxSize = 46;
+    let minSize = 10;
+    let maxSize = 40;
     let eFontSize = map(avgScores[i], 0, 10, minSize, maxSize);
 
-    // default fallback location (your old layout)
+    //default if responsive doesn't work
     let cx = offsetX + 500;
     let cy = 120 + i * 50;
 
