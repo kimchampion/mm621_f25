@@ -61,14 +61,14 @@ function preload() {
 }
 
 function getEmojiForScore(score) {
-  if (score >= 9) return "😄";
+  if (score >= 9) return "❤️";
   else if (score >= 8) return "😁";
-  else if (score >= 7) return "😊";
+  else if (score >= 7) return "🥰";
   else if (score >= 6) return "🙂";
-  else if (score >= 5) return "😌";
-  else if (score >= 4) return "😐";
-  else if (score >= 3) return "😕";
-  else if (score >= 2) return "😞";
+  else if (score >= 5) return "🫠";
+  else if (score >= 4) return "🫩";
+  else if (score >= 3) return "🥺";
+  else if (score >= 2) return "🫣";
   else if (score >= 1) return "😢";
   else return "😭";
 }
