@@ -9,6 +9,8 @@ My data visualization of world happiness report
 
 Sources:
 
+[World Happiness Report - Data Visualization](https://kimchampion.github.io/mm621_f25/exercises/project2-dataviz/index.html?year=2015)
+
 [World Happiness Data Set](https://www.kaggle.com/datasets/unsdsn/world-happiness)
 
 [World Map (base image)]( https://stock.adobe.com/images/world-map-modern-color-vector-map-silhouette-map/842059052)
