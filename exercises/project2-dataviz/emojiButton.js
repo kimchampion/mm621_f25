@@ -1,13 +1,15 @@
+
 class EmojiButton {
   // (center x, center y, fontSize, regionName, avgScore, regionIdx)
   constructor(cx, cy, fontSize, regName, avgScore, regionIdx) {
     this._cx = cx;
     this._cy = cy;
     this._fs = fontSize;
+    //this._size = size;          
     this._regName = regName;
     this._avgScore = avgScore;
     this._regionIdx = regionIdx;
-    this._emoji = getEmojiForScore(avgScore);
+    this._img = getEmojiForScore(avgScore);
     this._isHover = false;
     this._colorTint = 255; 
   }
@@ -34,30 +36,50 @@ class EmojiButton {
     }
   }
 
-  show() {
-    // draw the emoji centered at (cx, cy)
-    push();
-    textAlign(CENTER, CENTER);
-    textSize(this._fs);
+//   show() {
+//     // draw the emoji centered at (cx, cy)
+//     push();
+//     imageMode(CENTER);
+//     // textAlign(CENTER, CENTER);
+//     // textSize(this._fs);
     
-    //highlight circle on hover
-    if (this._isHover) {
+//     //highlight circle on hover
+//     if (this._isHover) {
 
-      fill(247, 196, 85, 140);
-      let r = this._fs * 0.9;
-      ellipse(this._cx, this._cy, r * 1.6, r * 1.6);
-    }
+//       fill(247, 196, 85, 140);
+//       let r = this._fs * 0.9;
+//       ellipse(this._cx, this._cy, r * 1.6, r * 1.6);
+//     }
   
-    let emojiAlpha = map(this._avgScore, 0, 10, 200, 255);
-    //console.log("emojiAlpha: "+ emojiAlpha);
+//     //let emojiAlpha = map(this._avgScore, 0, 10, 200, 255);
+//     //console.log("emojiAlpha: "+ emojiAlpha);
 
-    fill(255, emojiAlpha); // set alpha value
-    text(this._emoji, this._cx, this._cy);
+//     //fill(255, emojiAlpha); // set alpha value
+//     //text(this._emoji, this._cx, this._cy);
+
+//     image(this._img, this._cx, this._cy, this._fs, this._fs);
+
+//     pop();
+//   }
+
+  show() {
+    push();
+    imageMode(CENTER);
+
+    // draw hover highlight behind image
+    if (this._isHover) {
+      noStroke();
+      fill(247, 196, 85, 140);
+      ellipse(this._cx, this._cy, this._fs * 1.4);
+    }
+
+    // draw the actual face image
+    //image(this._img, this._cx, this._cy, this._fs, this._fs);
+    image(this._img, this._cx, this._cy, this._fs, this._fs);
     pop();
   }
 
   showPopup(mx, my) {
-    // Build lines: title + country/rank list
     let lines = [];
     
     noStroke();
