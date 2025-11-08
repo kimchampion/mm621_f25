@@ -57,20 +57,41 @@ function preload() {
   data2018 = loadTable(url_2018, "csv", "header"); //load data
   data2019 = loadTable(url_2019, "csv", "header"); //load data
 
-  worldMap = loadImage('assets/worldMap.png');  //load map
+  worldMap    = loadImage('assets/worldMap.png');  //load map
+  happyImg9  = loadImage('assets/10-9.png');
+  happyImg8   = loadImage('assets/8-8.9.png');
+  happyImg7   = loadImage('assets/7-7.9.png');
+  happyImg6   = loadImage('assets/6-6.9.png');
+  happyImg5   = loadImage('assets/5-5.9.png');
+  happyImg4   = loadImage('assets/4-4.9.png');
+  happyImg3   = loadImage('assets/3-3.9.png');
+  happyImg2   = loadImage('assets/2-2.9.png');
+  happyImg1   = loadImage('assets/1-1.9.png');
 }
 
+// function getEmojiForScore(score) {
+//   if (score >= 9) return "❤️";
+//   else if (score >= 8) return "😁";
+//   else if (score >= 7) return "🥰";
+//   else if (score >= 6) return "🙂";
+//   else if (score >= 5) return "🫠";
+//   else if (score >= 4) return "🫩";
+//   else if (score >= 3) return "🥺";
+//   else if (score >= 2) return "🫣";
+//   else if (score >= 1) return "😢";
+//   else return "😭";
+// }
+
 function getEmojiForScore(score) {
-  if (score >= 9) return "❤️";
-  else if (score >= 8) return "😁";
-  else if (score >= 7) return "🥰";
-  else if (score >= 6) return "🙂";
-  else if (score >= 5) return "🫠";
-  else if (score >= 4) return "🥴";
-  else if (score >= 3) return "🥺";
-  else if (score >= 2) return "🫣";
-  else if (score >= 1) return "😢";
-  else return "😭";
+  if (score >= 9) return happyImg9;
+  else if (score >= 8) return happyImg8;
+  else if (score >= 7) return happyImg7;
+  else if (score >= 6) return happyImg6;
+  else if (score >= 5) return happyImg5;
+  else if (score >= 4) return happyImg4;
+  else if (score >= 3) return happyImg3;
+  else if (score >= 2) return happyImg2;
+  else return happyImg1;
 }
 
 function setup() {
