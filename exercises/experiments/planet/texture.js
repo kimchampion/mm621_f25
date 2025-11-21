@@ -9,9 +9,9 @@ function preload() {
 function setup() {
       // Create a canvas in WebGL mode
       createCanvas(475, 375,WEBGL);
-      cam = createCapture(VIDEO);
-      cam.size(320,200);
-      cam.hide();
+      // cam = createCapture(VIDEO);
+      // cam.size(320,200);
+      // cam.hide();
   }
 
 function draw() {
