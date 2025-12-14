@@ -4,6 +4,8 @@
 
 Course: Screen Based Interaction (MM621-02-1, Fa25)
 
+* [Course Journal](https://kimchampion.github.io/mm621_f25/journal/toc)
+  
 **Assignments:**
 
 1. In-Class Exercise 1 : Character/ Scene Randomizer
